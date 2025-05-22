@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="/styles.css" rel="stylesheet" />
+        <title>Estudos JS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section id="title-container"><h1>ToDo List</h1></section>
+        <section id="task-container">
+            <form id="form-add-task">
+                <div class="task-input">
+                    <input
+                        id="input-new-task"
+                        type="text"
+                        placeholder="Digite a sua tarefa"
+                    />
+                    <button id="btn-add-task">Adicionar Tarefa</button>
+                </div>
+            </form>
+            <ul id="task-list"></ul>
+        </section>
+        <script src="/app.js" defer></script>
+    </body>
+</html>
